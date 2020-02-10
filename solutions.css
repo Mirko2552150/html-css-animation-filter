@@ -68,5 +68,65 @@
     0% {transform: rotate(0deg);}
     75% {transform: rotate(270deg);}
 
+}
 
+/* NB esercizio N 12*/
+
+/* descrizione, HOVER SOLO SUL TASTO, ANIMAZIONE CHE COMPRENDE IL TOP WHITE */
+.ex-12-button:hover .ex-12-top-white {
+    animation-name: bottoneuno;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+/* DOPO NOME ANIMAZIONE MODIFICO I PARAMENTRI LEFT PRESENTI SOLO NEL TOP WHITE */
+@keyframes bottoneuno {
+    0% {left: 10%;}
+    50% {left: 50%;}
+    100% {left: 10%;}
+
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation-name: bottonedue;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes bottonedue {
+    0% {right: 20%;}
+    50% {right: 58%;}
+    100% {right: 20%;}
+}
+
+/* ESERCIZIO 13 */
+
+.ex-13-button:hover .ex-13-top-white {
+    animation-name: bottoneunobis;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes bottoneunobis {
+    0% {left: 10%; top:-10px;}
+    30% {right: 0; top:-10px;}
+    45% {left: calc(100%); top:100%;}
+    75% {left: 0; top:100%;}
+    90% {left: -15px; top:-15px;}
+    100% {left: 10%; top:-10px;}
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation-name: bottoneduebis;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes bottoneduebis {
+    0% {right: 20%; bottom:-10%;}
+    30% {right: calc(100%); bottom:-10%;}
+    45% {right: calc(100%); bottom:100%;}
+    75% {right: 0; bottom:100%;}
+    90% {right: -15px; bottom:-15px;}
+    100% {right: 20%; bottom:-10px;}
 }
