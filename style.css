@@ -8,16 +8,19 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition-duration: 3s;
 }
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition-duration: 3s;
 }
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition-duration: 3s;
 }
 .ex-5-square {
     margin: 20px;
