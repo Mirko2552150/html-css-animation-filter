@@ -39,8 +39,21 @@
 }
 
 .ex-9-img:hover {
-
     border-radius: 10px;
     transition-duration: 2s;
     transform: scale(1.5);
+}
+
+.ex-10-icon:hover {
+    /* nome inventato */
+    animation-name: giro;
+    /* durata a scelta */
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes giro {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
 }
